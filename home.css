@@ -709,7 +709,7 @@ font-style: italic;
   } 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
   .threat-grid{
     display: grid;
     grid-template-columns: auto auto;
