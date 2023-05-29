@@ -64,6 +64,10 @@ grid-template-columns: auto auto;
   text-decoration: none;
 }
 
+.footer-links a{
+  font-size: small;
+}
+
 .footer-logo img{
   width: 280px;
   padding-bottom: 20px;
