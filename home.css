@@ -1219,14 +1219,22 @@ gap: 10px;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
+  .HTHintro{
+  font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
   .HTHintro{
     background :rgba(0, 0, 0, 0.5) ;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 5px;
     text-align: center;
     font-size: 20px;
     }
+  } 
+
+@media only screen and (max-width: 320px) {
   
   #grid-item1 img{
     width :280px; 
