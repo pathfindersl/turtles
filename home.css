@@ -77,7 +77,7 @@ grid-template-columns: auto auto;
 footer{
   display: grid;
   grid-template-columns: auto;
-  padding: 20px 60px;
+  padding: 20px 20px;
 }
 }
 /*start of the navi bar*/
