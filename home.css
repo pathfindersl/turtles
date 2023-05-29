@@ -940,6 +940,82 @@ height: 100%;
   filter: contrast(100%);
   }
 
+.donate-info{
+    background: white;
+    color: #000;
+    padding: 20px;
+    margin: 0px 60px;
+  }
+
+  @media only screen and (max-width: 530px) {
+    .donate-info{
+      background: white;
+      color: #000;
+      padding: 10px;
+      margin: 0px 10px;
+    }
+  }
+
+  .donate-info legend{
+    font-size: xx-large;
+  }
+
+  .donate-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .donate-grid{
+      display: grid;
+      grid-template-columns: auto;
+      gap: 20px;
+    }
+  }
+
+  .donate-item2 h3{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  input[type=text] , [type=number] , [type=tel] , [type=email]  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+ input[type=radio]{
+  display: none;
+ }
+
+ .dnt-button{
+  font-family: 'poppins',sans-serif;
+  font-size: large;
+  background-color:wheat;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin: 10px;
+ }
+
+ @media only screen and (max-width: 405px) {
+  .dn-btngrid{
+    display: grid;
+    grid-template-columns: auto;
+  }
+ } 
+
+ input[type=radio]:checked + label{
+  background-color: #0C9;
+  color: white;
+ }
+
   .merch-topic{
     padding-left: 20px;
   }
