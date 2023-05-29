@@ -109,7 +109,7 @@ li a:hover, .dropdown:hover .dropbtn {
   text-decoration: underline;
   transition: all 0.4s ease;
   background-color: transparent;
-  color: wheat;
+  color:rgb(27, 5, 61);
 } 
 
 .logo-link a:hover{
