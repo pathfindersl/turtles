@@ -1232,6 +1232,9 @@ gap: 10px;
     text-align: center;
     font-size: 20px;
     }
+}
+  
+  @media only screen and (max-width: 320px) {
   
   #grid-item1 img{
     width :280px; 
